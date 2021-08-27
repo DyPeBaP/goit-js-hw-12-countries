@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.input__box {
+  margin: 30px auto;
+  height: 300px;
+  width: 600px;
+  border-radius: 40px;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(white), to(#ff7606));
+  background-image: linear-gradient(to left top, white, #ff7606);
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50px;
+}
+
+.input__text {
+  border: none;
+  border-radius: 10px;
+  height: 60px;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 15px;
+}
+
+.input__text:focus {
+  padding-left: 14px;
+  border: 1px solid black;
+}
+
+.country_item {
+  font-size: 20px;
+  color: #e48d54;
+}
+
+.render_box {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
