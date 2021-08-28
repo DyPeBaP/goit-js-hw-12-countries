@@ -2,8 +2,9 @@
 .section {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(0deg, #010203 0%, rgba(2, 2, 2, 0) 90%), url(../images/map.jpg);
-  min-height: 100vh;
+  background-image: url(../images/map.jpg);
+  min-height: 70vh;
+  z-index: 0;
 }
 .input__box {
   margin: 30px auto;
@@ -43,8 +44,6 @@
 }
 .render_box {
   color:rgb(255, 254, 254);
-  // margin: 0 auto;
   margin-left: auto;
   margin-right: 70px;
 }
-    
