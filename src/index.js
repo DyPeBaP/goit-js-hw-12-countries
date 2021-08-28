@@ -54,7 +54,7 @@ function noticeMessage() {
     text: "To many matchesfound. Please enter a more specific query!",
     width: "300px",
     minHeight: "15px",
-    delay: 2000,
+    delay: 5000,
   });
 }
 function errorMessage() {

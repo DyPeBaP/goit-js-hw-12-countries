@@ -3,8 +3,7 @@
   display: flex;
   flex-direction: column;
   background-image: url(../images/map.jpg);
-  min-height: 70vh;
-  z-index: 0;
+  min-height: 100vh;
 }
 .input__box {
   margin: 30px auto;
@@ -46,4 +45,7 @@
   color:rgb(255, 254, 254);
   margin-left: auto;
   margin-right: 70px;
+}
+.pnotify{
+  position: absolute;
 }
