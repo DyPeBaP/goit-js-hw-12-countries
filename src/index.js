@@ -51,7 +51,7 @@ function noticeMessage() {
   refs.renderBox.innerHTML = "";
   notice({
     title: "Attention",
-    text: "To many matchesfound. Please enter a more specific query!",
+    text: "To many matches found. Please enter a more specific query!",
     width: "300px",
     minHeight: "15px",
     delay: 5000,
